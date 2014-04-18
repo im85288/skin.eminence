@@ -113,6 +113,13 @@
                     <usealttexture>ControlGroup(3).HasFocus(36)</usealttexture>
                     <alttexturenofocus colordiffuse="PosterBorder-NF" border="5">common/border-inner.png</alttexturenofocus>
                 </control>
+                <control type="togglebutton" id="39" description="Modes">
+                    <label>Modes</label>
+                    <align>left</align>
+                    <textcolor>Disabled</textcolor>
+                    <usealttexture>ControlGroup(3).HasFocus(39)</usealttexture>
+                    <alttexturenofocus colordiffuse="PosterBorder-NF" border="5">common/border-inner.png</alttexturenofocus>
+                </control>
             </control>
             
             <control type="textbox">
@@ -716,6 +723,22 @@
                     <visible>ControlGroup(3).HasFocus(36)</visible>
                     <texturefocus border="12">common/border-inner-highlight.png</texturefocus>
                 </control>
+                
+                <!------------>
+                <!-- Modes -->
+                <!------------>
+                <control type="radiobutton" id="901">
+                    <label>Media Browser Mode</label>
+                    <width>1063</width>
+                    <radioposx>984</radioposx>
+                    <align>left</align>
+                    <font>Font-ListInfo</font>
+                    <onclick>Skin.ToggleSetting(xbmb3c)</onclick>
+                    <selected>Skin.HasSetting(xbmb3c)</selected>
+                    <visible>ControlGroup(3).HasFocus(39)</visible>
+                    <texturefocus border="12">common/border-inner-highlight.png</texturefocus>
+                </control>
+                
                 
             </control>
         </control>

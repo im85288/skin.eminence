@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-	id="skin.eminence"
-	version="0.9.38"
-	name="Eminence"
+	id="skin.eminence.xbmb3c"
+	version="0.9.39"
+	name="Eminence MB3"
 	provider-name="jurialmunkey">
 	<requires>
 		<import addon="xbmc.gui" version="5.0.0"/>
@@ -20,7 +20,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary>Created by jurialmunkey</summary>
+		<summary>Created by jurialmunkey - XBMB3C Mode - IM85288</summary>
 		<description>Eminence is a skin that seeks simplicity, functionality, and elegance with a modern look</description>
 	</extension>
 </addon>

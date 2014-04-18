@@ -321,7 +321,7 @@
             <focusedlayout width="972" height="69">
             </focusedlayout>
             <content target="music">$VAR[9360Content]</content>
-
+			
         </control>
 	</controls>
 

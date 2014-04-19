@@ -97,7 +97,7 @@
             <control type="wraplist" id="9600">
 			    <include>HomeBGWidgetContent</include>
 			    <content target="video">$VAR[GlobalWidget]</content>
-            </control>
+			 </control>
             
             <control type="wraplist" id="9600">
 			    <visible>Window.IsVisible(home)</visible>

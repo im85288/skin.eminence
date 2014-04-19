@@ -80,32 +80,35 @@
             <posy>10</posy>
             <include>WatchedImage</include>
         </control>
-        <control type="image">
-            <posx>globalpad</posx>
-            <bottom>globalpad</bottom>
-            <width>bigposterw</width>
-            <height>58</height>
-            <texture colordiffuse="PanelBG">common/white.png</texture>
-            <aspectratio>scale</aspectratio>
-            <animation effect="fade" start="100" end="66" condition="true">Conditional</animation>
-        </control>
-        <control type="label">
-            <posx>25</posx>
-            <bottom>globalpad</bottom>
-            <width>bigposterwplot</width>
-            <height>58</height>
-            <aligny>center</aligny>
-            <label>$INFO[ListItem.Label]</label>
-        </control>
-        <control type="label">
-            <posx>25r</posx>
-            <bottom>globalpad</bottom>
-            <width>bigposterwplot</width>
-            <height>58</height>
-            <aligny>center</aligny>
-            <align>right</align>
-            <font>Font-ListInfo-Small</font>
-            <label>$INFO[ListItem.Label2]</label>
+        <control type="group">
+            <visible>Skin.HasSetting(posterview.labels)</visible>
+            <control type="image">
+                <posx>globalpad</posx>
+                <bottom>globalpad</bottom>
+                <width>bigposterw</width>
+                <height>58</height>
+                <texture colordiffuse="PanelBG">common/white.png</texture>
+                <aspectratio>scale</aspectratio>
+                <animation effect="fade" start="100" end="66" condition="true">Conditional</animation>
+            </control>
+            <control type="label">
+                <posx>25</posx>
+                <bottom>globalpad</bottom>
+                <width>bigposterwplot</width>
+                <height>58</height>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+            </control>
+            <control type="label">
+                <posx>25r</posx>
+                <bottom>globalpad</bottom>
+                <width>bigposterwplot</width>
+                <height>58</height>
+                <aligny>center</aligny>
+                <align>right</align>
+                <font>Font-ListInfo-Small</font>
+                <label>$INFO[ListItem.Label2]</label>
+            </control>
         </control>
     </include>
     <include name="51ListSquareContent">
@@ -222,34 +225,37 @@
                                 <posy>10</posy>
                                 <include>WatchedImage</include>
                             </control>
-                            <control type="image">
-                                <posx>globalpad</posx>
-                                <bottom>globalpad</bottom>
-                                <width>bigposterw</width>
-                                <height>58</height>
-                                <texture colordiffuse="PanelBG">common/white.png</texture>
-                                <aspectratio>scale</aspectratio>
-                                <animation effect="fade" start="100" end="66" condition="true">Conditional</animation>
-                            </control>
-                            <control type="label">
-                                <posx>25</posx>
-                                <bottom>globalpad</bottom>
-                                <width>bigposterwplot</width>
-                                <height>58</height>
-                                <aligny>center</aligny>
-                                <textcolor>Selected</textcolor>
-                                <label>$INFO[ListItem.Label]</label>
-                            </control>
-                            <control type="label">
-                                <posx>25r</posx>
-                                <bottom>globalpad</bottom>
-                                <width>bigposterwplot</width>
-                                <height>58</height>
-                                <aligny>center</aligny>
-                                <align>right</align>
-                                <font>Font-ListInfo-Small</font>
-                                <textcolor>Selected</textcolor>
-                                <label>$INFO[ListItem.Label2]</label>
+                            <control type="group">
+                                <visible>Skin.HasSetting(posterview.labels)</visible>
+                                <control type="image">
+                                    <posx>globalpad</posx>
+                                    <bottom>globalpad</bottom>
+                                    <width>bigposterw</width>
+                                    <height>58</height>
+                                    <texture colordiffuse="PanelBG">common/white.png</texture>
+                                    <aspectratio>scale</aspectratio>
+                                    <animation effect="fade" start="100" end="66" condition="true">Conditional</animation>
+                                </control>
+                                <control type="label">
+                                    <posx>25</posx>
+                                    <bottom>globalpad</bottom>
+                                    <width>bigposterwplot</width>
+                                    <height>58</height>
+                                    <aligny>center</aligny>
+                                    <textcolor>Selected</textcolor>
+                                    <label>$INFO[ListItem.Label]</label>
+                                </control>
+                                <control type="label">
+                                    <posx>25r</posx>
+                                    <bottom>globalpad</bottom>
+                                    <width>bigposterwplot</width>
+                                    <height>58</height>
+                                    <aligny>center</aligny>
+                                    <align>right</align>
+                                    <font>Font-ListInfo-Small</font>
+                                    <textcolor>Selected</textcolor>
+                                    <label>$INFO[ListItem.Label2]</label>
+                                </control>
                             </control>
                         </control>
                     </control>

@@ -241,7 +241,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.3.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.2.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.2.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.2.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.2.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.banner))]</property>
@@ -2700,6 +2700,7 @@
 			<include condition="Skin.HasSetting(xbmb3c)">MixedWidgetMB3</include>
 		</content>
 	</include>
+	
 	<include name="ContentYoutubeTrailers">
 		<content target="video">plugin://plugin.video.youtube/?contact=trailers&amp;external=true&amp;feed=uploads&amp;login=false&amp;path=%2froot%2fexplore%2ftrailers</content>
 	</include>

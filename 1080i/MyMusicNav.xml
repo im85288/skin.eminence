@@ -63,7 +63,7 @@
             <visible>!ControlGroup(9000).HasFocus()</visible>
         </control>
 
-		<include condition="!Skin.HasSetting(xbmb3c)">DefMyNavViews</include>
+		<include>DefMyNavViews</include>
 		
 		<include>DefFullScreenNav</include>
 		

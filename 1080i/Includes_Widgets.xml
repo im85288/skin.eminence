@@ -206,7 +206,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.1.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.1.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.1.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.1.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.1.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.banner))]</property>
@@ -241,7 +241,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.2.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.2.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.2.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.2.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.2.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.banner))]</property>
@@ -276,7 +276,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.3.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.3.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.3.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.3.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.3.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.banner))]</property>
@@ -311,7 +311,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.4.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.4.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.4.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.4.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.4.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.banner))]</property>
@@ -346,7 +346,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.5.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.5.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.5.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.5.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.5.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.banner))]</property>
@@ -381,7 +381,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.6.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.6.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.6.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.6.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.6.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.banner))]</property>
@@ -416,7 +416,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.7.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.7.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.7.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.7.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.7.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.banner))]</property>
@@ -451,7 +451,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.8.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.8.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.8.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.8.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.8.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.banner))]</property>
@@ -486,7 +486,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.9.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.9.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.9.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.9.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.9.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Art(tvshow.banner))]</property>
@@ -521,7 +521,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.10.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.10.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.10.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.10.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.10.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.10.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.10.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.10.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.10.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.10.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.10.Art(tvshow.banner))]</property>
@@ -556,7 +556,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.11.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.11.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.11.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.11.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.11.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.11.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.11.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.11.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.11.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.11.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.11.Art(tvshow.banner))]</property>
@@ -591,7 +591,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.12.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.12.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.12.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.12.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.12.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.12.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.12.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.12.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.12.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.12.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.12.Art(tvshow.banner))]</property>
@@ -626,7 +626,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.13.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.13.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.13.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.13.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.13.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.13.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.13.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.13.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.13.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.13.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.13.Art(tvshow.banner))]</property>
@@ -661,7 +661,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.14.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.14.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.14.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.14.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.14.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.14.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.14.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.14.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.14.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.14.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.14.Art(tvshow.banner))]</property>
@@ -696,7 +696,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.15.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.15.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.15.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.15.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.15.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.15.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.15.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.15.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.15.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.15.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.15.Art(tvshow.banner))]</property>
@@ -731,7 +731,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.16.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.16.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.16.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.16.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.16.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.16.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.16.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.16.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.16.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.16.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.16.Art(tvshow.banner))]</property>
@@ -766,7 +766,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.17.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.17.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.17.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.17.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.17.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.17.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.17.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.17.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.17.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.17.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.17.Art(tvshow.banner))]</property>
@@ -801,7 +801,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.18.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.18.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.18.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.18.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.18.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.18.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.18.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.18.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.18.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.18.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.18.Art(tvshow.banner))]</property>
@@ -836,7 +836,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.19.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.19.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.19.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.19.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.19.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.19.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.19.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.19.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.19.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.19.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.19.Art(tvshow.banner))]</property>
@@ -871,7 +871,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.20.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.20.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.20.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.20.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.20.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.banner))]</property>
@@ -1256,7 +1256,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.1.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.1.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.1.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.1.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.1.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.banner))]</property>
@@ -1273,7 +1273,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.3.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.2.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.2.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.2.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.2.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.banner))]</property>
@@ -1290,7 +1290,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.3.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.3.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.3.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.3.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.3.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.banner))]</property>
@@ -1307,7 +1307,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.4.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.4.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.4.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.4.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.4.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.banner))]</property>
@@ -1324,7 +1324,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.5.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.5.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.5.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.5.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.5.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.banner))]</property>
@@ -1341,7 +1341,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.6.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.6.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.6.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.6.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.6.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.banner))]</property>
@@ -1358,7 +1358,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.7.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.7.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.7.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.7.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.7.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.banner))]</property>
@@ -1375,7 +1375,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.8.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.8.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.8.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.8.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.8.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.banner))]</property>
@@ -1392,7 +1392,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.9.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.9.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.9.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.9.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.9.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Art(tvshow.banner))]</property>
@@ -1409,7 +1409,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.10.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.10.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.10.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.10.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.10.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.10.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.10.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.10.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.10.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.10.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.10.Art(tvshow.banner))]</property>
@@ -1426,7 +1426,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.11.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.11.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.11.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.11.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.11.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.11.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.11.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.11.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.11.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.11.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.11.Art(tvshow.banner))]</property>
@@ -1443,7 +1443,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.12.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.12.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.12.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.12.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.12.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.12.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.12.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.12.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.12.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.12.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.12.Art(tvshow.banner))]</property>
@@ -1460,7 +1460,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.13.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.13.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.13.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.13.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.13.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.13.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.13.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.13.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.13.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.13.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.13.Art(tvshow.banner))]</property>
@@ -1477,7 +1477,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.14.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.14.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.14.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.14.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.14.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.14.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.14.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.14.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.14.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.14.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.14.Art(tvshow.banner))]</property>
@@ -1494,7 +1494,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.15.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.15.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.15.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.15.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.15.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.15.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.15.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.15.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.15.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.15.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.15.Art(tvshow.banner))]</property>
@@ -1511,7 +1511,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.16.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.16.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.16.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.16.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.16.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.16.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.16.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.16.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.16.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.16.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.16.Art(tvshow.banner))]</property>
@@ -1528,7 +1528,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.17.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.17.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.17.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.17.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.17.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.17.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.17.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.17.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.17.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.17.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.17.Art(tvshow.banner))]</property>
@@ -1545,7 +1545,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.18.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.18.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.18.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.18.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.18.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.18.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.18.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.18.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.18.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.18.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.18.Art(tvshow.banner))]</property>
@@ -1562,7 +1562,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.19.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.19.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.19.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.19.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.19.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.19.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.19.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.19.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.19.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.19.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.19.Art(tvshow.banner))]</property>
@@ -1579,7 +1579,7 @@
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.fanart))]</icon>
 			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.fanart))]</thumb>
 			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.EpisodeTitle)]</label>
-			<label2>$INFO[Window(home).Property(NextUpEpisodeMB3.20.ShowTitle)]$INFO[Window(home).Property(NextUpEpisodeMB3.20.EpisodeNo), • [UPPERCASE],[/UPPERCASE]]</label2>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.20.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.20.EpisodeNo),E,]</label2>
 			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Resume)]</property>
 			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.20.Path)])</property>
 			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.banner))]</property>
@@ -2700,7 +2700,6 @@
 			<include condition="Skin.HasSetting(xbmb3c)">MixedWidgetMB3</include>
 		</content>
 	</include>
-	
 	<include name="ContentYoutubeTrailers">
 		<content target="video">plugin://plugin.video.youtube/?contact=trailers&amp;external=true&amp;feed=uploads&amp;login=false&amp;path=%2froot%2fexplore%2ftrailers</content>
 	</include>

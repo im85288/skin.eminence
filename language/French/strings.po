@@ -1,0 +1,527 @@
+# XBMC Media Center language file
+# Addon Name: eminence
+# Addon id: skin.eminence
+# Addon Provider: jurialmunkey
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Skins\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-04-28 18:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-skins/"
+"language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+"Language: fr\n"
+
+msgctxt "#31101"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "#31102"
+msgid "Youtube"
+msgstr "Youtube"
+
+msgctxt "#31103"
+msgid "Vimeo"
+msgstr "Vimeo"
+
+msgctxt "#31104"
+msgid "Live TV"
+msgstr "Live TV"
+
+msgctxt "#31105"
+msgid "TV Guide"
+msgstr "Guide TV"
+
+msgctxt "#31106"
+msgid "Fullscreen"
+msgstr "Plein écran"
+
+msgctxt "#31107"
+msgid "min"
+msgstr "min"
+
+msgctxt "#31108"
+msgid "Quick Nav"
+msgstr "Navigation rapide"
+
+msgctxt "#31109"
+msgid "Recently Added"
+msgstr "Récemment ajouté"
+
+msgctxt "#31110"
+msgid "In Progress"
+msgstr "En cours"
+
+msgctxt "#31111"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "#31112"
+msgid "Spotlight"
+msgstr "En vedette"
+
+msgctxt "#31113"
+msgid "items"
+msgstr "objets"
+
+msgctxt "#31114"
+msgid "Channels"
+msgstr "Chaînes"
+
+msgctxt "#31115"
+msgid "Finishes at"
+msgstr "Termine à"
+
+msgctxt "#31116"
+msgid "Close"
+msgstr "Fermer"
+
+msgctxt "#31118"
+msgid "Playing"
+msgstr "Jouer"
+
+msgctxt "#31119"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "#31120"
+msgid "Auto-Login"
+msgstr "Connexion auto"
+
+msgctxt "#31121"
+msgid "Used Memory"
+msgstr "Mémoire utilisée"
+
+msgctxt "#31122"
+msgid "No info available..."
+msgstr "Aucune information disponible ..."
+
+msgctxt "#31123"
+msgid "Channel"
+msgstr "Chaîne"
+
+msgctxt "#31124"
+msgid "Airing"
+msgstr "Diffusée"
+
+msgctxt "#31125"
+msgid "End Time"
+msgstr "Heure de fin"
+
+msgctxt "#31126"
+msgid "Channel Group"
+msgstr "Groupe de Chaîne"
+
+msgctxt "#31127"
+msgid "Recording"
+msgstr "Enregistrement"
+
+msgctxt "#31128"
+msgid "Scheduled"
+msgstr "Programmé"
+
+msgctxt "#31129"
+msgid "Not Scheduled"
+msgstr "Non programmé"
+
+msgctxt "#31130"
+msgid "Shutdown Timer"
+msgstr "Minuterie de fermeture"
+
+msgctxt "#31131"
+msgid "Master Mode: On"
+msgstr "Mode Maître : Oui"
+
+msgctxt "#31132"
+msgid "Master Mode: Off"
+msgstr "Mode Maître : Non"
+
+msgctxt "#31133"
+msgid "Cancel Timer"
+msgstr "Annuler minuterie"
+
+msgctxt "#31134"
+msgid "Mute"
+msgstr "SILENCE"
+
+msgctxt "#31135"
+msgid "Artwork"
+msgstr "Artwork"
+
+msgctxt "#31136"
+msgid "Changes"
+msgstr "Changes"
+
+msgctxt "#31137"
+msgid "Re-initialise skin"
+msgstr "Re-initialiser le theme"
+
+msgctxt "#31138"
+msgid "Set weather fanart"
+msgstr "Définir fanart météo"
+
+msgctxt "#31139"
+msgid "Artist slideshow"
+msgstr "Artist slideshow"
+
+msgctxt "#31140"
+msgid "Show visualisation behind slideshow"
+msgstr "Voir visualisation derrière diaporama"
+
+msgctxt "#31141"
+msgid "Movies Widget"
+msgstr "Widget Films"
+
+msgctxt "#31142"
+msgid "Tv Shows Widget"
+msgstr "Widget Séries TV"
+
+msgctxt "#31143"
+msgid "Disc Menu"
+msgstr "Menu disque"
+
+msgctxt "#31144"
+msgid "Enable TV Tunes"
+msgstr "Activer TV Tunes"
+
+msgctxt "#31145"
+msgid "Show now playing video in background"
+msgstr "Afficher la lecture vidéo en arrière-plan"
+
+msgctxt "#31146"
+msgid "Show fanart"
+msgstr "Afficher fanart"
+
+msgctxt "#31147"
+msgid "Views"
+msgstr "Vues"
+
+msgctxt "#31149"
+msgid "Set global background"
+msgstr "Définir arrière-plan globale"
+
+msgctxt "#31150"
+msgid "Show info"
+msgstr "Afficher info"
+
+msgctxt "#31151"
+msgid "Hide info"
+msgstr "Masquer info"
+
+msgctxt "#31152"
+msgid "Posters"
+msgstr "Affiches"
+
+msgctxt "#31153"
+msgid "Wall"
+msgstr "Mur"
+
+msgctxt "#31154"
+msgid "Banner"
+msgstr "Bannière"
+
+msgctxt "#31155"
+msgid "Lovefilm"
+msgstr "Lovefilm"
+
+msgctxt "#31156"
+msgid "All Movies"
+msgstr "Tous les films"
+
+msgctxt "#31157"
+msgid "All TV Shows"
+msgstr "Toutes les séries TV"
+
+msgctxt "#31158"
+msgid "Fullscreen"
+msgstr "Plein écran"
+
+msgctxt "#31159"
+msgid "Recently Played"
+msgstr "Récemment joués"
+
+msgctxt "#31160"
+msgid "Press down for options..."
+msgstr "Appuyez sur bas pour les options ..."
+
+msgctxt "#31161"
+msgid "Show PVR channel icon in header"
+msgstr "Afficher icône chaîne PVR en tête"
+
+msgctxt "#31162"
+msgid "Show extended details when pressing info"
+msgstr "Afficher les informations détaillées en appuyant sur infos"
+
+msgctxt "#31163"
+msgid "Custom"
+msgstr "Personnalisé"
+
+msgctxt "#31164"
+msgid "Customise"
+msgstr "Personnaliser"
+
+msgctxt "#31165"
+msgid "Edit icon"
+msgstr "Modifier l'icône"
+
+msgctxt "#31166"
+msgid "Items"
+msgstr "Éléments"
+
+msgctxt "#31167"
+msgid "Pages"
+msgstr "Pages"
+
+msgctxt "#31168"
+msgid "Home"
+msgstr "Acceuil"
+
+msgctxt "#31169"
+msgid "Add item"
+msgstr "Ajouter élément"
+
+msgctxt "#31170"
+msgid "Now playing"
+msgstr "Lecture en cours"
+
+msgctxt "#31171"
+msgid "the items on your home menu"
+msgstr "les éléments de votre menu d'accueil"
+
+msgctxt "#31172"
+msgid "Edit"
+msgstr "Modifier"
+
+msgctxt "#31173"
+msgid "on"
+msgstr "oui"
+
+msgctxt "#31174"
+msgid "Cinema Experience"
+msgstr "Cinema Experience"
+
+msgctxt "#31175"
+msgid "Television"
+msgstr "Télévision"
+
+msgctxt "#31176"
+msgid "Media Center"
+msgstr "Média Center"
+
+msgctxt "#31177"
+msgid "Show weather with clock"
+msgstr "Afficher la météo avec horloge"
+
+msgctxt "#31178"
+msgid "Use taller tiles"
+msgstr "Utiliser des grandes tuiles"
+
+msgctxt "#31179"
+msgid "Movies Hub"
+msgstr "Films Hub"
+
+msgctxt "#31180"
+msgid "Tv Shows Hub"
+msgstr "Séries Tv Hub"
+
+msgctxt "#31181"
+msgid "Widget"
+msgstr "Widget"
+
+msgctxt "#31182"
+msgid "Home background widget (press up to access)"
+msgstr "Widget d'arrière-plan de l'accueil  (appuyer en haut pour y accéder)"
+
+msgctxt "#31183"
+msgid "Mix of in-progress tv-shows and random movies"
+msgstr "Mélange de séries Tv en cours et des films aléatoires"
+
+msgctxt "#31184"
+msgid "Quick nav mode"
+msgstr "Mode navigation rapide"
+
+msgctxt "#31185"
+msgid "Decrease the fade on background fanart"
+msgstr "Diminuer la fondu sur le fond fanart"
+
+msgctxt "#31186"
+msgid "Custom Item"
+msgstr "Élément personnalisé"
+
+msgctxt "#31187"
+msgid "Next Aired"
+msgstr "Prochaine diffusion"
+
+msgctxt "#31188"
+msgid "Show next aired in RSS feed"
+msgstr "Prochaine diffusion dans le flux RSS"
+
+msgctxt "#31189"
+msgid "Update next aired data on startup"
+msgstr "Mise à jour des données de diffusions au démarrage"
+
+msgctxt "#31190"
+msgid "Login"
+msgstr "Connexion"
+
+msgctxt "#31191"
+msgid "User login"
+msgstr "Connexion utilisateur"
+
+msgctxt "#31192"
+msgid "Select a profile"
+msgstr "Sélectionner un profil"
+
+msgctxt "#31193"
+msgid "Trailers"
+msgstr "Bande-annonce"
+
+msgctxt "#31194"
+msgid "Loading..."
+msgstr "Chargement ..."
+
+msgctxt "#31195"
+msgid "Access recent/in-progress hub by pressing down"
+msgstr "Accéder récent/en cours dans le hub en appuyant sur bas"
+
+msgctxt "#31196"
+msgid "Channel Options"
+msgstr "Options Chaînes"
+
+msgctxt "#31197"
+msgid "General Options"
+msgstr "Options générales"
+
+msgctxt "#31198"
+msgid "Show widget info panel"
+msgstr "Afficher le widget panneau d'informations"
+
+msgctxt "#31199"
+msgid "Skip hubs and go straight to library"
+msgstr "Passer hubs et aller directement à la bibliothèque"
+
+msgctxt "#31200"
+msgid "Manual search..."
+msgstr "Recherche manuelle ..."
+
+msgctxt "#31201"
+msgid "Set Colour"
+msgstr "Définir Couleur"
+
+msgctxt "#31202"
+msgid "Background Widgets"
+msgstr "Widgets d'arrière-plan"
+
+msgctxt "#31203"
+msgid "Reset global background path to default"
+msgstr "Réinitialiser chemin d'arrière-plan globale par défaut"
+
+msgctxt "#31204"
+msgid "Match highlight to tile color"
+msgstr "Faire correspondre la surbrillance à la couleur de la tuile"
+
+msgctxt "#31205"
+msgid "Don't fade unfocused tiles"
+msgstr "Pas de fondu sur les tuiles floues"
+
+msgctxt "#31206"
+msgid "Use theme colour for focused tiles"
+msgstr "Utiliser la couleur du thème pour les tuiles visible"
+
+msgctxt "#31207"
+msgid "Movie Set"
+msgstr "Saga"
+
+msgctxt "#31208"
+msgid "Home Tiles"
+msgstr "Tuiles d'accueil"
+
+msgctxt "#31209"
+msgid "Override background settings with mixed widget"
+msgstr "Remplacer les paramètres d'arrière-plan avec le widget mixte"
+
+msgctxt "#31210"
+msgid "Show background silhouette throughout skin"
+msgstr "Afficher l'arrière-plan silhouette à travers le skin"
+
+msgctxt "#31211"
+msgid "Move item"
+msgstr "Déplacer élément"
+
+msgctxt "#31212"
+msgid "Swap with another tile"
+msgstr "Déplacer avec une autre tuile"
+
+msgctxt "#31213"
+msgid ""
+"Click on a tile to see the available customisation options. Either select a "
+"preset tile option or modify an existing tile's name, colour, icon, path and "
+"background widget. You can also swap the position of tiles."
+msgstr ""
+"Cliquez sur une tuile pour voir les options de personnalisation disponibles. "
+"Sélectionner une option de tuile prédéfini ou modifier le nom, la couleur, "
+"l'icône, le chemin et le widget d'arrière-plan d'une tuile existante. Vous "
+"pouvez également modifier la position des tuiles."
+
+msgctxt "#31214"
+msgid "Customise your home menu tiles"
+msgstr "Personnaliser les tuiles du menu d'accueil"
+
+msgctxt "#31215"
+msgid "Choose a tile to swap with this one"
+msgstr "Choisissez une tuile pour échanger avec celui-ci"
+
+msgctxt "#31216"
+msgid "Show clearart/logo with osd"
+msgstr "Afficher clearart/logo avec l'osd"
+
+msgctxt "#31217"
+msgid "Show power button"
+msgstr "Afficher le bouton d'alimentation"
+
+msgctxt "#31218"
+msgid "Change background colour based on time of day"
+msgstr ""
+"Changer la couleur de l'arrière-plan en fonction de l'heure de la journée"
+
+msgctxt "#31219"
+msgid "Insert item"
+msgstr "Insérer un élément"
+
+msgctxt "#31220"
+msgid "Experimental"
+msgstr "Expérimental"
+
+msgctxt "#31221"
+msgid "EPG Timeline"
+msgstr "EPG Chronologie"
+
+msgctxt "#31222"
+msgid " •   Customise widget item"
+msgstr " •   Personnaliser le widget élément"
+
+msgctxt "#31223"
+msgid "Banner List"
+msgstr "Liste bannière"
+
+msgctxt "#31224"
+msgid "Forecast"
+msgstr "Prévision"
+
+msgctxt "#31225"
+msgid "Info List"
+msgstr "Info Liste"
+
+msgctxt "#31226"
+msgid "Show title"
+msgstr "Afficher titre"
+
+msgctxt "#31227"
+msgid "Hide title"
+msgstr "Masquer titre"

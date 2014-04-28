@@ -165,7 +165,8 @@
 							<label>137</label>
 							<icon>special://skin/extras/icons/search.png</icon>
 							<onclick>Skin.SetString($INFO[Window(3061).Property(item),,.label],$LOCALIZE[137])</onclick>
-							<onclick>Skin.SetString($INFO[Window(3061).Property(item),,.Path],RunScript(script.globalsearch))</onclick>
+							<onclick condition="!Skin.HasSetting(xbmb3c)">Skin.SetString($INFO[Window(3061).Property(item),,.Path],RunScript(script.globalsearch))</onclick>
+							<onclick condition="Skin.HasSetting(xbmb3c)">Skin.SetString($INFO[Window(3061).Property(item),,.Path],$INFO[Window(Home).Property(xbmb3c.std.search.0.path)])</onclick>
 							<onclick>Skin.SetString($INFO[Window(3061).Property(item),,.icon],special://skin/extras/icons/search.png)</onclick>
 							<onclick>Skin.SetBool($INFO[Window(3061).Property(item),,.enabled])</onclick>
 						</item>

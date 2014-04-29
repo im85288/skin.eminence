@@ -214,7 +214,7 @@
 				<align>left</align>
 				<aligny>top</aligny>
 				<textcolor>$VAR[TopBarSubLabel]</textcolor>
-				<label>$INFO[Player.FinishTime,$LOCALIZE[31115] ,]</label>
+				<label>$INFO[Player.FinishTime,$LOCALIZE[31115][COLOR=Highlight] ,[/COLOR]]</label>
 			</control>
 			<control type="label">
 				<width>330</width>

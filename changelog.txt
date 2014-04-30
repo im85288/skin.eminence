@@ -1,7 +1,15 @@
+[B]0.9.39[/B]
+Fix hub issues with playlists and empty hubs (afaik)
+Fix Side menu radiobutton not being visible
+
 [B]0.9.38[/B]
 Watched indicator updates
 Lovefilm show info mode
 Fix some mouse issues for hubs etc
+Fix further hub issues
+Lists to list rather than focuslist
+Option to show/hide poster labels
+Fix channel manager vis bugs
 
 [B]0.9.37[/B]
 Standardised views to constants (still some work todo)

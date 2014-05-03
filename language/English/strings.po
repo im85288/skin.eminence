@@ -493,7 +493,7 @@ msgid "EPG Timeline"
 msgstr ""
 
 msgctxt "#31222"
-msgid " •   Customise widget item"
+msgid " ���   Customise widget item"
 msgstr ""
 
 msgctxt "#31223"
@@ -514,4 +514,12 @@ msgstr ""
 
 msgctxt "#31227"
 msgid "Hide title"
+msgstr ""
+
+msgctxt "#60001"
+msgid "Show extra fanart"
+msgstr ""
+
+msgctxt "#60002"
+msgid "Decrease the fade even more on background fanart"
 msgstr ""

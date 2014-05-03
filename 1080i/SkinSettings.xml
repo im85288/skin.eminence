@@ -504,6 +504,17 @@
                     <visible>ControlGroup(3).HasFocus(38)</visible>
                     <texturefocus border="12">common/border-inner-highlight.png</texturefocus>
                 </control>
+                 <control type="radiobutton" id="804">
+                    <label>60001</label>
+                    <width>1063</width>
+                    <radioposx>984</radioposx>
+                    <align>left</align>
+                    <font>Font-ListInfo</font>
+                    <onclick>Skin.ToggleSetting(fanart.extra)</onclick>
+                    <selected>Skin.HasSetting(fanart.extra)</selected>
+                    <visible>ControlGroup(3).HasFocus(38) + Skin.HasSetting(xbmb3c) + !Skin.HasSetting(disable.fanart)</visible>
+                    <texturefocus border="12">common/border-inner-highlight.png</texturefocus>
+                </control>
                 <control type="radiobutton" id="803">
                     <label>31185</label>
                     <width>1063</width>
@@ -513,6 +524,17 @@
                     <onclick>Skin.ToggleSetting(fanart.showmore)</onclick>
                     <selected>Skin.HasSetting(fanart.showmore)</selected>
                     <visible>ControlGroup(3).HasFocus(38)</visible>
+                    <texturefocus border="12">common/border-inner-highlight.png</texturefocus>
+                </control>
+                 <control type="radiobutton" id="809">
+                    <label>60002</label>
+                    <width>1063</width>
+                    <radioposx>984</radioposx>
+                    <align>left</align>
+                    <font>Font-ListInfo</font>
+                    <onclick>Skin.ToggleSetting(fanart.showevenmore)</onclick>
+                    <selected>Skin.HasSetting(fanart.showevenmore)</selected>
+                    <visible>ControlGroup(3).HasFocus(38) + Skin.HasSetting(fanart.showmore)</visible>
                     <texturefocus border="12">common/border-inner-highlight.png</texturefocus>
                 </control>
                 <control type="radiobutton" id="832">

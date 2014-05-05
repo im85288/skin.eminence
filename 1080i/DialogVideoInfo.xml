@@ -386,7 +386,7 @@
                     </control>
 
                 </focusedlayout>
-                
+                <include condition="Skin.HasSetting(xbmb3c)">ActorsContent</include>
             </control>
         </control>
         

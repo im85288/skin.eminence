@@ -523,3 +523,7 @@ msgstr ""
 msgctxt "#60002"
 msgid "Decrease the fade even more on background fanart"
 msgstr ""
+
+msgctxt "#60003"
+msgid "Use alternate osd for live tv"
+msgstr ""

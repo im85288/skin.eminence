@@ -14,6 +14,7 @@
 		<value condition="Window.IsVisible(LoginScreen.xml)">$LOCALIZE[20096]</value>
 		<value condition="Window.IsVisible(3063)">$LOCALIZE[31164]</value>
 		<value condition="Window.IsVisible(script-globalsearch-main.xml)">$LOCALIZE[283]</value>
+		<value condition="Player.HasAudio + substring(Container.FolderPath,plugin://,left)">$LOCALIZE[24000]</value>
 		<value condition="Player.HasAudio + IsEmpty(Window(10025).Property(TvTunesIsAlive))">$INFO[Player.Title]</value>
 		<value condition="Player.HasVideo + !VideoPlayer.Content(livetv)">$INFO[Player.Title]</value>
 		<value condition="Player.HasVideo + VideoPlayer.Content(livetv)">$INFO[VideoPlayer.ChannelNumber,, ]$INFO[VideoPlayer.ChannelName]</value>
@@ -367,7 +368,6 @@
 			</control>
 		</control>
 	</include>
-</includes>
 
     <variable name="TopBarMainLabel">
         <value condition="Window.IsVisible(home) | Window.IsVisible(fullscreenvideo) | Window.IsVisible(visualisation)">MainLabel</value>
@@ -386,8 +386,7 @@
         <value condition="Player.HasAudio + IsEmpty(Window(10025).Property(TvTunesIsAlive))">$INFO[Player.Title]</value>
         <value condition="Player.HasVideo + !VideoPlayer.Content(livetv)">$INFO[Player.Title]</value>
         <value condition="Player.HasVideo + VideoPlayer.Content(livetv)">$INFO[VideoPlayer.ChannelNumber,,  ]$INFO[VideoPlayer.ChannelName]</value>
-        <value condition="Player.HasAudio + IsEmpty(Window(10025).Property(TvTunesIsAlive))">$INFO[Player.Artist]</value>
-        
+        <value condition="Player.HasAudio + IsEmpty(Window(10025).Property(TvTunesIsAlive))">$INFO[Player.Artist]</value> 
         <value condition="substring(Container.FolderPath,plugin://,left)">$LOCALIZE[24000]</value>
         <value condition="Window.IsVisible(MyPVR.xml)">$LOCALIZE[31175]</value>
         <value condition="Container.Content(files) | substring(Container.FolderPath,sources://)">$LOCALIZE[1214]</value>

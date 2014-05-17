@@ -48,9 +48,27 @@
 
         </control>
         
+        <control type="button">
+            <posy>600</posy>
+            <posx>1770</posx>
+            <width>58</width>
+            <height>58</height>
+            <texturenofocus>special://skin/extras/icons/search.png</texturenofocus>
+            <texturefocus colordiffuse="Highlight">special://skin/extras/icons/search.png</texturefocus>
+            <aspectratio>keep</aspectratio>
+            <animation effect="fade" end="75" condition="true">Conditional</animation>
+            <animation effect="fade" start="0" end="100" delay="200" time="650" reversible="false">WindowOpen</animation>
+            <animation effect="fade" start="0" end="100" delay="200" time="650" reversible="false">Visible</animation>
+            <animation effect="fade" start="100" end="0" delay="0" time="0" reversible="false">WindowClose</animation>
+            <animation effect="fade" start="100" end="0" delay="0" time="0" reversible="false">Hidden</animation>
+            <include>DialogVisibility</include>
+            <visible>Control.HasFocus(50) + Window.IsVisible(PersonInfo.xml)</visible>
+            <visible>!ControlGroup(9500).HasFocus()</visible>
+        </control>
+        
 		<control type="group">
 		    <animation effect="slide" end="horznegpad" start="0" time="200" condition="[ControlGroup(9500).HasFocus() | Window.IsActive(DialogContextMenu.xml)]">Conditional</animation>
-		    <visible>!Window.IsVisible(fullscreenvideo) + !Window.IsVisible(visualisation)</visible>
+		    <visible>!Window.IsVisible(fullscreenvideo) + !Window.IsVisible(visualisation) + !Window.IsVisible(PersonInfo.xml)</visible>
 		    <posx>horzpad</posx>
 		    <posy>70</posy>
 		    <animation effect="slide" start="0" end="-2000" time="200" condition="Control.HasFocus(50)">Conditional</animation>
@@ -325,7 +343,7 @@
                         <posy>globalpad</posy>
                         <height>wallposterh</height>
                         <width>261</width>
-                        <texture background="true">$VAR[PosterImage]</texture>
+                        <texture background="true" fallback="DefaultActor.png">$VAR[PosterImage]</texture>
                         <aspectratio aligny="top">scale</aspectratio>
                     </control>
                     <control type="image">
@@ -362,7 +380,7 @@
                         <posy>globalpad</posy>
                         <height>wallposterh</height>
                         <width>261</width>
-                        <texture background="true">$VAR[PosterImage]</texture>
+                        <texture background="true" fallback="DefaultActor.png">$VAR[PosterImage]</texture>
                         <aspectratio aligny="top">scale</aspectratio>
                     </control>
                     <control type="image">

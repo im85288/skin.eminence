@@ -40,7 +40,7 @@ msgstr "Guide TV"
 
 msgctxt "#31106"
 msgid "Fullscreen"
-msgstr "Plein écran"
+msgstr "Plein ��cran"
 
 msgctxt "#31107"
 msgid "min"
@@ -52,7 +52,7 @@ msgstr "Navigation rapide"
 
 msgctxt "#31109"
 msgid "Recently Added"
-msgstr "Récemment ajouté"
+msgstr "R��cemment ajout��"
 
 msgctxt "#31110"
 msgid "In Progress"
@@ -72,11 +72,11 @@ msgstr "objets"
 
 msgctxt "#31114"
 msgid "Channels"
-msgstr "Chaînes"
+msgstr "Cha��nes"
 
 msgctxt "#31115"
 msgid "Finishes at"
-msgstr "Termine à"
+msgstr "Termine ��"
 
 msgctxt "#31116"
 msgid "Close"
@@ -96,7 +96,7 @@ msgstr "Connexion auto"
 
 msgctxt "#31121"
 msgid "Used Memory"
-msgstr "Mémoire utilisée"
+msgstr "M��moire utilis��e"
 
 msgctxt "#31122"
 msgid "No info available..."
@@ -104,11 +104,11 @@ msgstr "Aucune information disponible ..."
 
 msgctxt "#31123"
 msgid "Channel"
-msgstr "Chaîne"
+msgstr "Cha��ne"
 
 msgctxt "#31124"
 msgid "Airing"
-msgstr "Diffusée"
+msgstr "Diffus��e"
 
 msgctxt "#31125"
 msgid "End Time"
@@ -116,7 +116,7 @@ msgstr "Heure de fin"
 
 msgctxt "#31126"
 msgid "Channel Group"
-msgstr "Groupe de Chaîne"
+msgstr "Groupe de Cha��ne"
 
 msgctxt "#31127"
 msgid "Recording"
@@ -124,11 +124,11 @@ msgstr "Enregistrement"
 
 msgctxt "#31128"
 msgid "Scheduled"
-msgstr "Programmé"
+msgstr "Programm��"
 
 msgctxt "#31129"
 msgid "Not Scheduled"
-msgstr "Non programmé"
+msgstr "Non programm��"
 
 msgctxt "#31130"
 msgid "Shutdown Timer"
@@ -136,11 +136,11 @@ msgstr "Minuterie de fermeture"
 
 msgctxt "#31131"
 msgid "Master Mode: On"
-msgstr "Mode Maître : Oui"
+msgstr "Mode Ma��tre : Oui"
 
 msgctxt "#31132"
 msgid "Master Mode: Off"
-msgstr "Mode Maître : Non"
+msgstr "Mode Ma��tre : Non"
 
 msgctxt "#31133"
 msgid "Cancel Timer"
@@ -164,7 +164,7 @@ msgstr "Re-initialiser le theme"
 
 msgctxt "#31138"
 msgid "Set weather fanart"
-msgstr "Définir fanart météo"
+msgstr "D��finir fanart m��t��o"
 
 msgctxt "#31139"
 msgid "Artist slideshow"
@@ -172,7 +172,7 @@ msgstr "Artist slideshow"
 
 msgctxt "#31140"
 msgid "Show visualisation behind slideshow"
-msgstr "Voir visualisation derrière diaporama"
+msgstr "Voir visualisation derri��re diaporama"
 
 msgctxt "#31141"
 msgid "Movies Widget"
@@ -180,7 +180,7 @@ msgstr "Widget Films"
 
 msgctxt "#31142"
 msgid "Tv Shows Widget"
-msgstr "Widget Séries TV"
+msgstr "Widget S��ries TV"
 
 msgctxt "#31143"
 msgid "Disc Menu"
@@ -192,7 +192,7 @@ msgstr "Activer TV Tunes"
 
 msgctxt "#31145"
 msgid "Show now playing video in background"
-msgstr "Afficher la lecture vidéo en arrière-plan"
+msgstr "Afficher la lecture vid��o en arri��re-plan"
 
 msgctxt "#31146"
 msgid "Show fanart"
@@ -204,7 +204,7 @@ msgstr "Vues"
 
 msgctxt "#31149"
 msgid "Set global background"
-msgstr "Définir arrière-plan globale"
+msgstr "D��finir arri��re-plan globale"
 
 msgctxt "#31150"
 msgid "Show info"
@@ -224,7 +224,7 @@ msgstr "Mur"
 
 msgctxt "#31154"
 msgid "Banner"
-msgstr "Bannière"
+msgstr "Banni��re"
 
 msgctxt "#31155"
 msgid "Lovefilm"
@@ -236,15 +236,15 @@ msgstr "Tous les films"
 
 msgctxt "#31157"
 msgid "All TV Shows"
-msgstr "Toutes les séries TV"
+msgstr "Toutes les s��ries TV"
 
 msgctxt "#31158"
 msgid "Fullscreen"
-msgstr "Plein écran"
+msgstr "Plein ��cran"
 
 msgctxt "#31159"
 msgid "Recently Played"
-msgstr "Récemment joués"
+msgstr "R��cemment jou��s"
 
 msgctxt "#31160"
 msgid "Press down for options..."
@@ -252,15 +252,15 @@ msgstr "Appuyez sur bas pour les options ..."
 
 msgctxt "#31161"
 msgid "Show PVR channel icon in header"
-msgstr "Afficher icône chaîne PVR en tête"
+msgstr "Afficher ic��ne cha��ne PVR en t��te"
 
 msgctxt "#31162"
 msgid "Show extended details when pressing info"
-msgstr "Afficher les informations détaillées en appuyant sur infos"
+msgstr "Afficher les informations d��taill��es en appuyant sur infos"
 
 msgctxt "#31163"
 msgid "Custom"
-msgstr "Personnalisé"
+msgstr "Personnalis��"
 
 msgctxt "#31164"
 msgid "Customise"
@@ -268,11 +268,11 @@ msgstr "Personnaliser"
 
 msgctxt "#31165"
 msgid "Edit icon"
-msgstr "Modifier l'icône"
+msgstr "Modifier l'ic��ne"
 
 msgctxt "#31166"
 msgid "Items"
-msgstr "Éléments"
+msgstr "��l��ments"
 
 msgctxt "#31167"
 msgid "Pages"
@@ -284,7 +284,7 @@ msgstr "Acceuil"
 
 msgctxt "#31169"
 msgid "Add item"
-msgstr "Ajouter élément"
+msgstr "Ajouter ��l��ment"
 
 msgctxt "#31170"
 msgid "Now playing"
@@ -292,7 +292,7 @@ msgstr "Lecture en cours"
 
 msgctxt "#31171"
 msgid "the items on your home menu"
-msgstr "les éléments de votre menu d'accueil"
+msgstr "les ��l��ments de votre menu d'accueil"
 
 msgctxt "#31172"
 msgid "Edit"
@@ -308,15 +308,15 @@ msgstr "Cinema Experience"
 
 msgctxt "#31175"
 msgid "Television"
-msgstr "Télévision"
+msgstr "T��l��vision"
 
 msgctxt "#31176"
 msgid "Media Center"
-msgstr "Média Center"
+msgstr "M��dia Center"
 
 msgctxt "#31177"
 msgid "Show weather with clock"
-msgstr "Afficher la météo avec horloge"
+msgstr "Afficher la m��t��o avec horloge"
 
 msgctxt "#31178"
 msgid "Use taller tiles"
@@ -328,7 +328,7 @@ msgstr "Films Hub"
 
 msgctxt "#31180"
 msgid "Tv Shows Hub"
-msgstr "Séries Tv Hub"
+msgstr "S��ries Tv Hub"
 
 msgctxt "#31181"
 msgid "Widget"
@@ -336,11 +336,11 @@ msgstr "Widget"
 
 msgctxt "#31182"
 msgid "Home background widget (press up to access)"
-msgstr "Widget d'arrière-plan de l'accueil  (appuyer en haut pour y accéder)"
+msgstr "Widget d'arri��re-plan de l'accueil  (appuyer en haut pour y acc��der)"
 
 msgctxt "#31183"
 msgid "Mix of in-progress tv-shows and random movies"
-msgstr "Mélange de séries Tv en cours et des films aléatoires"
+msgstr "M��lange de s��ries Tv en cours et des films al��atoires"
 
 msgctxt "#31184"
 msgid "Quick nav mode"
@@ -352,7 +352,7 @@ msgstr "Diminuer la fondu sur le fond fanart"
 
 msgctxt "#31186"
 msgid "Custom Item"
-msgstr "Élément personnalisé"
+msgstr "��l��ment personnalis��"
 
 msgctxt "#31187"
 msgid "Next Aired"
@@ -364,7 +364,7 @@ msgstr "Prochaine diffusion dans le flux RSS"
 
 msgctxt "#31189"
 msgid "Update next aired data on startup"
-msgstr "Mise à jour des données de diffusions au démarrage"
+msgstr "Mise �� jour des donn��es de diffusions au d��marrage"
 
 msgctxt "#31190"
 msgid "Login"
@@ -376,7 +376,7 @@ msgstr "Connexion utilisateur"
 
 msgctxt "#31192"
 msgid "Select a profile"
-msgstr "Sélectionner un profil"
+msgstr "S��lectionner un profil"
 
 msgctxt "#31193"
 msgid "Trailers"
@@ -388,15 +388,15 @@ msgstr "Chargement ..."
 
 msgctxt "#31195"
 msgid "Access recent/in-progress hub by pressing down"
-msgstr "Accéder récent/en cours dans le hub en appuyant sur bas"
+msgstr "Acc��der r��cent/en cours dans le hub en appuyant sur bas"
 
 msgctxt "#31196"
 msgid "Channel Options"
-msgstr "Options Chaînes"
+msgstr "Options Cha��nes"
 
 msgctxt "#31197"
 msgid "General Options"
-msgstr "Options générales"
+msgstr "Options g��n��rales"
 
 msgctxt "#31198"
 msgid "Show widget info panel"
@@ -404,7 +404,7 @@ msgstr "Afficher le widget panneau d'informations"
 
 msgctxt "#31199"
 msgid "Skip hubs and go straight to library"
-msgstr "Passer hubs et aller directement à la bibliothèque"
+msgstr "Passer hubs et aller directement �� la biblioth��que"
 
 msgctxt "#31200"
 msgid "Manual search..."
@@ -412,19 +412,19 @@ msgstr "Recherche manuelle ..."
 
 msgctxt "#31201"
 msgid "Set Colour"
-msgstr "Définir Couleur"
+msgstr "D��finir Couleur"
 
 msgctxt "#31202"
 msgid "Background Widgets"
-msgstr "Widgets d'arrière-plan"
+msgstr "Widgets d'arri��re-plan"
 
 msgctxt "#31203"
 msgid "Reset global background path to default"
-msgstr "Réinitialiser chemin d'arrière-plan globale par défaut"
+msgstr "R��initialiser chemin d'arri��re-plan globale par d��faut"
 
 msgctxt "#31204"
 msgid "Match highlight to tile color"
-msgstr "Faire correspondre la surbrillance à la couleur de la tuile"
+msgstr "Faire correspondre la surbrillance �� la couleur de la tuile"
 
 msgctxt "#31205"
 msgid "Don't fade unfocused tiles"
@@ -432,7 +432,7 @@ msgstr "Pas de fondu sur les tuiles floues"
 
 msgctxt "#31206"
 msgid "Use theme colour for focused tiles"
-msgstr "Utiliser la couleur du thème pour les tuiles visible"
+msgstr "Utiliser la couleur du th��me pour les tuiles visible"
 
 msgctxt "#31207"
 msgid "Movie Set"
@@ -444,19 +444,19 @@ msgstr "Tuiles d'accueil"
 
 msgctxt "#31209"
 msgid "Override background settings with mixed widget"
-msgstr "Remplacer les paramètres d'arrière-plan avec le widget mixte"
+msgstr "Remplacer les param��tres d'arri��re-plan avec le widget mixte"
 
 msgctxt "#31210"
 msgid "Show background silhouette throughout skin"
-msgstr "Afficher l'arrière-plan silhouette à travers le skin"
+msgstr "Afficher l'arri��re-plan silhouette �� travers le skin"
 
 msgctxt "#31211"
 msgid "Move item"
-msgstr "Déplacer élément"
+msgstr "D��placer ��l��ment"
 
 msgctxt "#31212"
 msgid "Swap with another tile"
-msgstr "Déplacer avec une autre tuile"
+msgstr "D��placer avec une autre tuile"
 
 msgctxt "#31213"
 msgid ""
@@ -465,9 +465,9 @@ msgid ""
 "background widget. You can also swap the position of tiles."
 msgstr ""
 "Cliquez sur une tuile pour voir les options de personnalisation disponibles. "
-"Sélectionner une option de tuile prédéfini ou modifier le nom, la couleur, "
-"l'icône, le chemin et le widget d'arrière-plan d'une tuile existante. Vous "
-"pouvez également modifier la position des tuiles."
+"S��lectionner une option de tuile pr��d��fini ou modifier le nom, la couleur, "
+"l'ic��ne, le chemin et le widget d'arri��re-plan d'une tuile existante. Vous "
+"pouvez ��galement modifier la position des tuiles."
 
 msgctxt "#31214"
 msgid "Customise your home menu tiles"
@@ -475,7 +475,7 @@ msgstr "Personnaliser les tuiles du menu d'accueil"
 
 msgctxt "#31215"
 msgid "Choose a tile to swap with this one"
-msgstr "Choisissez une tuile pour échanger avec celui-ci"
+msgstr "Choisissez une tuile pour ��changer avec celui-ci"
 
 msgctxt "#31216"
 msgid "Show clearart/logo with osd"
@@ -488,15 +488,15 @@ msgstr "Afficher le bouton d'alimentation"
 msgctxt "#31218"
 msgid "Change background colour based on time of day"
 msgstr ""
-"Changer la couleur de l'arrière-plan en fonction de l'heure de la journée"
+"Changer la couleur de l'arri��re-plan en fonction de l'heure de la journ��e"
 
 msgctxt "#31219"
 msgid "Insert item"
-msgstr "Insérer un élément"
+msgstr "Ins��rer un ��l��ment"
 
 msgctxt "#31220"
 msgid "Experimental"
-msgstr "Expérimental"
+msgstr "Exp��rimental"
 
 msgctxt "#31221"
 msgid "EPG Timeline"
@@ -504,15 +504,15 @@ msgstr "EPG Chronologie"
 
 msgctxt "#31222"
 msgid " •   Customise widget item"
-msgstr " •   Personnaliser le widget élément"
+msgstr " ���   Personnaliser le widget ��l��ment"
 
 msgctxt "#31223"
 msgid "Banner List"
-msgstr "Liste bannière"
+msgstr "Liste banni��re"
 
 msgctxt "#31224"
 msgid "Forecast"
-msgstr "Prévision"
+msgstr "Pr��vision"
 
 msgctxt "#31225"
 msgid "Info List"

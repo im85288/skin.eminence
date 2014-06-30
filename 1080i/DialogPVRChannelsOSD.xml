@@ -11,7 +11,7 @@
             <control type="image">
                 <posx>-1</posx>
                 <posy>-1</posy>
-                <width>674</width>
+                <width>668</width>
                 <height>1082</height>
                 <texture colordiffuse="PanelBG" border="5">common/white.png</texture>
                 <bordertexture colordiffuse="PosterBorder" border="5">common/border-inner.png</bordertexture>
@@ -92,21 +92,21 @@
                         <info>ListItem.Progress</info>
                         <colordiffuse>PanelFG-NF</colordiffuse>
                     </control>
-                    <control type="label">
-                        <posx>530</posx>
+                   <control type="label">
+                        <posx>130</posx>                                  
                         <posy>5</posy>
-                        <width>280</width>
-                        <align>right</align>
+                        <width>400</width>                             
+                        <align>left</align>                                
                         <textcolor>PanelFG-NF</textcolor>
                         <selectedcolor>PanelFG-NF</selectedcolor>
                         <font>Font-SettingsCategory</font>
                         <label>$INFO[ListItem.ChannelName]</label>
                     </control>
                     <control type="label">
-                        <posx>530</posx>
+                        <posx>130</posx>                                   
                         <posy>40</posy>
-                        <width>380</width>
-                        <align>right</align>
+                        <width>400</width>                                  
+                        <align>left</align>                                 
                         <font>Font-ListInfo</font>
                         <textcolor>PanelFG-NF</textcolor>
                         <selectedcolor>PanelFG-NF</selectedcolor>
@@ -158,28 +158,27 @@
                         <info>ListItem.Progress</info>
                         <colordiffuse>Selected</colordiffuse>
                     </control>
-                    <control type="label">
-                        <posx>530</posx>
+                  <control type="label">
+                        <posx>130</posx>                                  
                         <posy>5</posy>
-                        <width>280</width>
-                        <align>right</align>
+                        <width>400</width>                                
+                        <align>left</align>                                   
                         <textcolor>Selected</textcolor>
                         <selectedcolor>Selected</selectedcolor>
                         <font>Font-SettingsCategory</font>
                         <label>$INFO[ListItem.ChannelName]</label>
                     </control>
                     <control type="label">
-                        <posx>530</posx>
+                        <posx>130</posx>                                  
                         <posy>40</posy>
-                        <width>380</width>
-                        <align>right</align>
+                        <width>400</width>                                 
+                        <align>left</align>                                  
                         <font>Font-ListInfo</font>
                         <textcolor>Selected</textcolor>
                         <selectedcolor>Selected</selectedcolor>
                         <label>$INFO[ListItem.Title]</label>
                     </control>
                 </focusedlayout>
-            
             </control>
         </control>
 	</controls>

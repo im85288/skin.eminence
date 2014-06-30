@@ -12,6 +12,8 @@
 			<visible allowhiddenfocus="true">false</visible>
 			<onfocus>Skin.ResetSettings</onfocus>
 			<onfocus>Skin.SetBool(home.showinfoonwidget)</onfocus>
+			<onfocus>Skin.SetBool(home.usemixedglobalwidget)</onfocus>
+			<onfocus>Skin.SetBool(xbmb3c)</onfocus>
 			<!-- 301 Item -->
 			<onfocus>Skin.SetBool(home.301.enabled)</onfocus>
 			<onfocus>Skin.SetString(home.301.bgcolor,ff555555)</onfocus>
@@ -32,7 +34,8 @@
 			<onfocus>Skin.SetBool(home.303.enabled)</onfocus>
 			<onfocus>Skin.SetString(home.303.bgcolor,ff555555)</onfocus>
 			<onfocus>Skin.SetString(home.303.icon,special://skin/extras/icons/songs.png)</onfocus>
-			<onfocus>Skin.SetString(home.303.path,ActivateWindow(Music,Albums,return))</onfocus>
+			<onfocus condition="!Skin.HasSetting(xbmb3c)">Skin.SetString(home.303.path,ActivateWindow(Music,Albums,return))</onfocus>
+			<onfocus condition="Skin.HasSetting(xbmb3c)">Skin.SetString(home.303.path,$INFO[Window(Home).Property(xbmb3c.std.music.0.path)])</onfocus>
 			<onfocus>Skin.SetString(home.303.label,$LOCALIZE[2])</onfocus>
 			<!-- 304 Item -->
 			<onfocus>Skin.SetBool(home.304.enabled)</onfocus>
@@ -43,10 +46,13 @@
 			<!-- 305 Item -->
 			<onfocus>Skin.SetBool(home.305.enabled)</onfocus>
 			<onfocus>Skin.SetString(home.305.bgcolor,ff555555)</onfocus>
-			<onfocus>Skin.SetString(home.305.icon,special://skin/extras/icons/pictures.png)</onfocus>
+			<onfocus condition="!Skin.HasSetting(xbmb3c)">Skin.SetString(home.305.icon,special://skin/extras/icons/pictures.png)</onfocus>
 			<onfocus condition="!Skin.HasSetting(xbmb3c)">Skin.SetString(home.305.path,ActivateWindow(Pictures))</onfocus>
-			<onfocus condition="Skin.HasSetting(xbmb3c)">Skin.SetString(home.305.path,$INFO[Window(Home).Property(xbmb3c.std.photo.0.path))</onfocus>
-			<onfocus>Skin.SetString(home.305.label,$LOCALIZE[1])</onfocus>
+			<onfocus condition="!Skin.HasSetting(xbmb3c)">Skin.SetString(home.305.label,$LOCALIZE[1])</onfocus>
+			<onfocus condition="Skin.HasSetting(xbmb3c)">Skin.SetString(home.305.icon,special://skin/extras/icons/channels.png)</onfocus>
+			<onfocus condition="Skin.HasSetting(xbmb3c)">Skin.SetString(home.305.path,$INFO[Window(Home).Property(xbmb3c.std.channels.0.path)])</onfocus>
+			<onfocus condition="Skin.HasSetting(xbmb3c)">Skin.SetString(home.305.label,$LOCALIZE[60006])</onfocus>
+            
 			<!-- 306 Item -->
 			<onfocus>Skin.SetBool(home.306.enabled)</onfocus>
 			<onfocus>Skin.SetString(home.306.bgcolor,ff555555)</onfocus>
@@ -69,9 +75,13 @@
 			<!-- 309 Item -->
 			<onfocus>Skin.SetBool(home.309.enabled)</onfocus>
 			<onfocus>Skin.SetString(home.309.bgcolor,ff555555)</onfocus>
-			<onfocus>Skin.SetString(home.309.icon,special://skin/extras/icons/youtube.png)</onfocus>
-			<onfocus>Skin.SetString(home.309.path,ActivateWindow(10025,"plugin://plugin.video.youtube/",return))</onfocus>
-			<onfocus>Skin.SetString(home.309.label,$LOCALIZE[31102])</onfocus>
+			<onfocus condition="Skin.HasSetting(xbmb3c)">Skin.SetString(home.309.icon,special://skin/extras/icons/xbmb3c.png)</onfocus>
+			<onfocus condition="Skin.HasSetting(xbmb3c)">Skin.SetString(home.309.path,ActivateWindow(10025,"plugin://plugin.video.xbmb3c/",return))</onfocus>
+			<onfocus condition="Skin.HasSetting(xbmb3c)">Skin.SetString(home.309.label,$LOCALIZE[60005])</onfocus>
+            <onfocus condition="!Skin.HasSetting(xbmb3c)">Skin.SetString(home.309.icon,special://skin/extras/icons/youtube.png)</onfocus>
+            <onfocus condition="!Skin.HasSetting(xbmb3c)">Skin.SetString(home.309.path,ActivateWindow(10025,"plugin://plugin.video.youtube/",return))</onfocus>
+            <onfocus condition="!Skin.HasSetting(xbmb3c)">Skin.SetString(home.309.label,$LOCALIZE[31102])</onfocus>
+            
 			<!-- 310 Item -->
 			<onfocus>Skin.SetBool(home.310.enabled)</onfocus>
 			<onfocus>Skin.SetString(home.310.bgcolor,ff555555)</onfocus>

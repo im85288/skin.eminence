@@ -1,0 +1,11 @@
+﻿<views>
+    <view id="List" value="50" />
+    <view id="Poster" value="51" />
+    <view id="Wall" value="52" />
+    <view id="Wide" value="53" />
+    <view id="Lovefilm" value="54" />
+    <view id="Banner" value="55" />
+    <view id="Big List" value="56" />
+    <view id="InfoList" value="57" />    
+    <view id="BannerList" value="58" />
+</views>

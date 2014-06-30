@@ -309,7 +309,7 @@ msgid "Television"
 msgstr ""
 
 msgctxt "#31176"
-msgid "Media Center"
+msgid "Media Browser"
 msgstr ""
 
 msgctxt "#31177"
@@ -493,7 +493,7 @@ msgid "EPG Timeline"
 msgstr ""
 
 msgctxt "#31222"
-msgid " ���   Customise widget item"
+msgid " •   Customise widget item"
 msgstr ""
 
 msgctxt "#31223"
@@ -526,4 +526,16 @@ msgstr ""
 
 msgctxt "#60003"
 msgid "Use alternate osd for live tv"
+msgstr ""
+
+msgctxt "#60004"
+msgid "Press right to search media"
+msgstr ""
+
+msgctxt "#60005"
+msgid "XBMB3C"
+msgstr ""
+
+msgctxt "#60006"
+msgid "Channels"
 msgstr ""

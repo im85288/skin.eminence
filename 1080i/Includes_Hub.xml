@@ -114,7 +114,7 @@
 		<item id="2">
 			<label>31109</label>
 			<onclick condition="!Skin.HasSetting(xbmb3c)">ActivateWindow(Videos,RecentlyAddedEpisodes,return)</onclick>
-			<onclick condition="!Skin.HasSetting(xbmb3c)">$INFO[Window(Home).Property(xbmb3c.std.tvshows.1.path)]</onclick>
+			<onclick condition="Skin.HasSetting(xbmb3c)">$INFO[Window(Home).Property(xbmb3c.std.tvshows.1.path)]</onclick>
 			<icon>special://skin/extras/icons/timer.png</icon>
 			<property name="Color">1</property>
 		</item>

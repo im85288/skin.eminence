@@ -883,21 +883,22 @@
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.20.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
-		<item id="50">
-			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.20.Path)])</onclick>
-			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.fanart))]</icon>
-			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.fanart))]</thumb>
-			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.EpisodeTitle)]</label>
-			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.20.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.20.EpisodeNo),E,]</label2>
-			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Resume)]</property>
-			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.20.Path)])</property>
-			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.banner))]</property>
-			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.clearlogo))]</property>
-			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Plot)]</property>
-			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.ShowTitle)]</property>
-			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.20.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.20.EpisodeNo),E,]</property>
-			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.fanart))]</property>
-			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.20.Path))</visible>
+		<item id="110">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.1.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.1.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.1.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.1.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.1.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.1.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.1.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.1.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.1.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.1.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.1.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.1.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.1.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
 		<item id="51">
@@ -917,6 +918,24 @@
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.21.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
+		<item id="111">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.2.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.2.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.2.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.2.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.2.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.2.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.2.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.2.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.2.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.2.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.2.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.2.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.2.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
 		<item id="52">
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.22.Path)])</onclick>
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.22.Art(tvshow.fanart))]</icon>
@@ -932,6 +951,24 @@
 			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.22.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.22.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.22.EpisodeNo),E,]</property>
 			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.22.Art(tvshow.fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.22.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="112">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.3.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.3.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.3.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.3.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.3.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.3.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.3.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.3.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.3.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.3.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.3.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.3.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.3.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
 		<item id="53">
@@ -951,6 +988,24 @@
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.23.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
+		<item id="113">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.4.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.4.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.4.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.4.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.4.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.4.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.4.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.4.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.4.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.4.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.4.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.4.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.4.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
 		<item id="54">
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.24.Path)])</onclick>
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.24.Art(tvshow.fanart))]</icon>
@@ -966,6 +1021,24 @@
 			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.24.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.24.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.24.EpisodeNo),E,]</property>
 			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.24.Art(tvshow.fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.24.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="114">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.5.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.5.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.5.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.5.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.5.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.5.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.5.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.5.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.5.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.5.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.5.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.5.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.5.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
 		<item id="55">
@@ -985,6 +1058,24 @@
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.25.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
+		<item id="115">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.6.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.6.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.6.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.6.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.6.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.6.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.6.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.6.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.6.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.6.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.6.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.6.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.6.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
 		<item id="56">
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.26.Path)])</onclick>
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.26.Art(tvshow.fanart))]</icon>
@@ -1000,6 +1091,24 @@
 			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.26.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.26.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.26.EpisodeNo),E,]</property>
 			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.26.Art(tvshow.fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.26.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="116">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.7.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.7.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.7.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.7.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.7.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.7.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.7.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.7.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.7.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.7.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.7.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.7.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.7.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
 		<item id="57">
@@ -1019,6 +1128,24 @@
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.27.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
+		<item id="117">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.8.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.8.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.8.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.8.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.8.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.8.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.8.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.8.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.8.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.8.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.8.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.8.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.8.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
 		<item id="58">
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.28.Path)])</onclick>
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.28.Art(tvshow.fanart))]</icon>
@@ -1034,6 +1161,24 @@
 			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.28.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.28.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.28.EpisodeNo),E,]</property>
 			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.28.Art(tvshow.fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.28.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="118">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.9.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.9.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.9.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.9.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.9.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.9.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.9.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.9.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.9.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.9.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.9.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.9.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.9.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.9.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.9.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.9.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.9.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.9.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
 		<item id="59">
@@ -1053,6 +1198,24 @@
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.29.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
+		<item id="119">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.10.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(InProgressMovieMB3.10.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(InProgressMovieMB3.10.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(InProgressMovieMB3.10.Title)]</label>
+			<label2>$INFO[Window(Home).Property(InProgressMovieMB3.10.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(InProgressMovieMB3.10.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(InProgressMovieMB3.10.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(InProgressMovieMB3.10.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.10.Plot)]$INFO[Window(Home).Property(InProgressMovieMB3.10.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(InProgressMovieMB3.10.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(InProgressMovieMB3.10.Year),, • ]$INFO[Window(Home).Property(InProgressMovieMB3.10.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(InProgressMovieMB3.10.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.10.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(InProgressMovieMB3.10.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.10.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(InProgressMovieMB3.10.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
 		<item id="60">
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.30.Path)])</onclick>
 			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.30.Art(tvshow.fanart))]</icon>
@@ -1068,6 +1231,866 @@
 			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.30.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.30.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.30.EpisodeNo),E,]</property>
 			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.30.Art(tvshow.fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.30.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="120">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.1.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.1.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.1.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.1.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.1.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.1.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.1.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.1.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.1.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.1.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.1.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.1.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.1.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.1.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.1.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="61">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.31.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.31.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.31.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.31.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.31.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.31.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.31.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.31.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.31.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.31.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.31.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.31.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.31.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.31.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.31.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.31.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.31.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.31.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="121">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.2.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.2.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.2.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.2.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.2.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.2.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.2.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.2.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.2.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.2.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.2.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.2.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.2.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.2.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.2.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="62">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.32.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.32.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.32.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.32.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.32.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.32.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.32.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.32.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.32.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.32.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.32.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.32.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.32.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.32.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.32.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.32.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.32.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.32.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="122">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.3.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.3.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.3.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.3.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.3.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.3.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.3.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.3.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.3.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.3.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.3.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.3.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.3.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.3.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.3.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="63">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.33.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.33.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.33.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.33.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.33.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.33.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.33.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.33.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.33.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.33.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.33.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.33.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.33.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.33.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.33.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.33.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.33.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.33.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="123">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.4.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.4.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.4.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.4.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.4.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.4.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.4.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.4.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.4.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.4.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.4.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.4.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.4.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.4.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.4.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="64">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.34.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.34.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.34.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.34.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.34.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.34.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.34.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.34.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.34.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.34.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.34.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.34.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.34.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.34.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.34.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.34.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.34.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.34.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="124">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.5.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.5.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.5.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.5.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.5.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.5.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.5.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.5.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.5.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.5.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.5.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.5.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.5.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.5.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.5.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="65">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.35.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.35.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.35.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.35.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.35.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.35.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.35.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.35.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.35.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.35.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.35.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.35.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.35.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.35.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.35.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.35.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.35.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.35.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="125">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.6.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.6.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.6.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.6.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.6.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.6.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.6.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.6.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.6.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.6.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.6.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.6.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.6.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.6.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.6.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="66">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.36.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.36.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.36.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.36.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.36.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.36.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.36.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.36.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.36.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.36.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.36.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.36.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.36.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.36.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.36.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.36.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.36.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.36.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="126">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.7.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.7.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.7.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.7.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.7.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.7.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.7.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.7.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.7.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.7.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.7.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.7.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.7.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.7.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.7.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="67">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.37.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.37.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.37.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.37.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.37.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.37.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.37.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.37.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.37.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.37.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.37.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.37.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.37.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.37.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.37.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.37.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.37.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.37.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="127">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.8.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.8.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.8.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.8.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.8.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.8.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.8.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.8.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.8.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.8.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.8.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.8.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.8.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.8.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.8.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="68">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.38.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.38.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.38.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.38.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.38.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.38.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.38.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.38.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.38.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.38.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.38.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.38.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.38.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.38.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.38.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.38.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.38.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.38.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="128">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.9.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.9.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.9.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.9.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.9.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.9.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.9.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.9.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.9.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.9.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.9.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.9.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.9.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.9.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.9.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.9.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.9.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.9.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="69">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.39.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.39.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.39.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.39.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.39.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.39.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.39.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.39.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.39.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.39.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.39.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.39.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.39.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.39.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.39.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.39.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.39.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.39.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="129">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.10.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(LatestMovieMB3.10.Art(fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(LatestMovieMB3.10.Art(fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(LatestMovieMB3.10.Title)]</label>
+			<label2>$INFO[Window(Home).Property(LatestMovieMB3.10.Year)]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(LatestMovieMB3.10.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.10.Path)])</property>
+			<property name="clearlogo">$INFO[Window(Home).Property(LatestMovieMB3.10.Art(clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.10.Plot)]$INFO[Window(Home).Property(LatestMovieMB3.10.CriticRatingSummary), [CR][CR][I]Critic Review: [/I],]</property>
+			<property name="Title">$INFO[Window(Home).Property(LatestMovieMB3.10.Title)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(LatestMovieMB3.10.Year),, • ]$INFO[Window(Home).Property(LatestMovieMB3.10.Runtime),, $LOCALIZE[12391]]$INFO[Window(Home).Property(LatestMovieMB3.10.Rating), ● ,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.10.Art(poster))]</property>
+			<property name="CriticRating">$INFO[Window(Home).Property(LatestMovieMB3.10.CriticRating)]</property>
+			<property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.10.Art(fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(LatestMovieMB3.10.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="70">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.40.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.40.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.40.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.40.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.40.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.40.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.40.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.40.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.40.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.40.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.40.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.40.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.40.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.40.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.40.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.40.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.40.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.40.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="71">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.41.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.41.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.41.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.41.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.41.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.41.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.41.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.41.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.41.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.41.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.41.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.41.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.41.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.41.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.41.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.41.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.41.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.41.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="72">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.42.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.42.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.42.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.42.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.42.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.42.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.42.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.42.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.42.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.42.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.42.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.42.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.42.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.42.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.42.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.42.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.42.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.42.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="73">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.43.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.43.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.43.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.43.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.43.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.43.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.43.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.43.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.43.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.43.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.43.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.43.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.43.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.43.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.43.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.43.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.43.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.43.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="74">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.44.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.44.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.44.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.44.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.44.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.44.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.44.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.44.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.44.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.44.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.44.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.44.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.44.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.44.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.44.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.44.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.44.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.44.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="75">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.45.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.45.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.45.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.45.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.45.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.45.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.45.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.45.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.45.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.45.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.45.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.45.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.45.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.45.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.45.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.45.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.45.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.45.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="76">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.46.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.46.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.46.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.46.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.46.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.46.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.46.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.46.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.46.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.46.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.46.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.46.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.46.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.46.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.46.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.46.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.46.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.46.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="77">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.47.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.47.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.47.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.47.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.47.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.47.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.47.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.47.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.47.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.47.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.47.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.47.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.47.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.47.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.47.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.47.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.47.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.47.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="78">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.48.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.48.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.48.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.48.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.48.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.48.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.48.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.48.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.48.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.48.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.48.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.48.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.48.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.48.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.48.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.48.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.48.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.48.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="79">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.49.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.49.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.49.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.49.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.49.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.49.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.49.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.49.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.49.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.49.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.49.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.49.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.49.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.49.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.49.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.49.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.49.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.49.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="80">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.50.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.50.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.50.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.50.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.50.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.50.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.50.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.50.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.50.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.50.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.50.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.50.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.50.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.50.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.50.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.50.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.50.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.50.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="81">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.51.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.51.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.51.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.51.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.51.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.51.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.51.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.51.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.51.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.51.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.51.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.51.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.51.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.51.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.51.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.51.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.51.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.51.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="82">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.52.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.52.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.52.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.52.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.52.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.52.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.52.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.52.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.52.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.52.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.52.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.52.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.52.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.52.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.52.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.52.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.52.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.52.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="83">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.53.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.53.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.53.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.53.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.53.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.53.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.53.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.53.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.53.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.53.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.53.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.53.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.53.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.53.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.53.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.53.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.53.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.53.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="84">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.54.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.54.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.54.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.54.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.54.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.54.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.54.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.54.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.54.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.54.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.54.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.54.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.54.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.54.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.54.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.54.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.54.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.54.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="85">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.55.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.55.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.55.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.55.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.55.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.55.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.55.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.55.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.55.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.55.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.55.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.55.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.55.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.55.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.55.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.55.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.55.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.55.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="86">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.56.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.56.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.56.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.56.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.56.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.56.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.56.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.56.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.56.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.56.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.56.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.56.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.56.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.56.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.56.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.56.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.56.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.56.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="87">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.57.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.57.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.57.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.57.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.57.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.57.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.57.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.57.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.57.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.57.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.57.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.57.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.57.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.57.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.57.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.57.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.57.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.57.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="88">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.58.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.58.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.58.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.58.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.58.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.58.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.58.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.58.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.58.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.58.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.58.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.58.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.58.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.58.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.58.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.58.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.58.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.58.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="89">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.59.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.59.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.59.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.59.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.59.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.59.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.59.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.59.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.59.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.59.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.59.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.59.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.59.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.59.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.59.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.59.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.59.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.59.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="90">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.60.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.60.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.60.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.60.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.60.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.60.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.60.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.60.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.60.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.60.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.60.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.60.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.60.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.60.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.60.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.60.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.60.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.60.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="91">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.61.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.61.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.61.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.61.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.61.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.61.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.61.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.61.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.61.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.61.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.61.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.61.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.61.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.61.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.61.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.61.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.61.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.61.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="92">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.62.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.62.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.62.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.62.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.62.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.62.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.62.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.62.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.62.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.62.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.62.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.62.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.62.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.62.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.62.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.62.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.62.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.62.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="93">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.63.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.63.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.63.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.63.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.63.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.63.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.63.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.63.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.63.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.63.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.63.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.63.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.63.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.63.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.63.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.63.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.63.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.63.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="94">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.64.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.64.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.64.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.64.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.64.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.64.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.64.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.64.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.64.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.64.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.64.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.64.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.64.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.64.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.64.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.64.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.64.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.64.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="95">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.65.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.65.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.65.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.65.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.65.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.65.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.65.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.65.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.65.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.65.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.65.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.65.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.65.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.65.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.65.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.65.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.65.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.65.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="96">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.66.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.66.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.66.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.66.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.66.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.66.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.66.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.66.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.66.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.66.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.66.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.66.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.66.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.66.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.66.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.66.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.66.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.66.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="97">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.67.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.67.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.67.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.67.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.67.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.67.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.67.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.67.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.67.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.67.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.67.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.67.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.67.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.67.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.67.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.67.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.67.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.67.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="98">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.68.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.68.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.68.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.68.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.68.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.68.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.68.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.68.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.68.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.68.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.68.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.68.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.68.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.68.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.68.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.68.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.68.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.68.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="99">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.69.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.69.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.69.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.69.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.69.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.69.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.69.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.69.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.69.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.69.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.69.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.69.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.69.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.69.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.69.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.69.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.69.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.69.Path))</visible>
+			<visible>Skin.HasSetting(xbmb3c)</visible>
+		</item>
+		<item id="100">
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.70.Path)])</onclick>
+			<icon>$INFO[Window(Home).Property(NextUpEpisodeMB3.70.Art(tvshow.fanart))]</icon>
+			<thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.70.Art(tvshow.fanart))]</thumb>
+			<label>$INFO[Window(Home).Property(NextUpEpisodeMB3.70.EpisodeTitle)]</label>
+			<label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.70.ShowTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.70.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.70.EpisodeNo),E,]</label2>
+			<property name="Resume">$INFO[Window(Home).Property(NextUpEpisodeMB3.70.Resume)]</property>
+			<property name="Play">PlayMedia($ESCINFO[Window(Home).Property(NextUpEpisodeMB3.70.Path)])</property>
+			<property name="banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.70.Art(tvshow.banner))]</property>
+			<property name="clearlogohome">$INFO[Window(Home).Property(NextUpEpisodeMB3.70.Art(tvshow.clearlogo))]</property>
+			<property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.70.Plot)]</property>
+			<property name="Title">$INFO[Window(Home).Property(NextUpEpisodeMB3.70.ShowTitle)]</property>
+			<property name="Title2">$INFO[Window(Home).Property(NextUpEpisodeMB3.70.EpisodeTitle),, • ]$INFO[Window(Home).Property(NextUpEpisodeMB3.70.SeasonNo),S,]$INFO[Window(Home).Property(NextUpEpisodeMB3.70.EpisodeNo),E,]</property>
+			<property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.70.Art(tvshow.fanart))]</property>
+			<visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.70.Path))</visible>
 			<visible>Skin.HasSetting(xbmb3c)</visible>
 		</item>
 	</include>
